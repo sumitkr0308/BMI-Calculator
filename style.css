@@ -18,17 +18,16 @@ video {
 
 .root{
     height: 100vh;
-  
-    display: flex;
+     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     text-align: center;
 }
 #mroot{
-    height: 70vh;
+    height: 75vh;
     width: auto;
-    padding: 2.5rem;
+    padding: 3rem;
     color:white;
     background-color: rgb(19, 19, 19);
     border-radius: 1rem;
