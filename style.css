@@ -2,11 +2,6 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url('./2.webp'); /* Replace with the image file path */
-    background-size: cover; /* Makes the image cover the entire body */
-    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
-    background-position: center; /* Centers the image */
-    background-attachment: fixed; /* Makes the background fixed during scrolling */
 }
 
 video {
@@ -106,3 +101,96 @@ button{
     width: auto;
 
 }
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    #mroot {
+        font-size: 1.8rem;
+        padding: 1.5rem;
+    }
+
+    #first, #second {
+        font-size: 1.8rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+        height: 1.8rem;
+    }
+
+    #res {
+        font-size: 1.8rem;
+    }
+
+    #comment {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .root {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    #mroot {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    #first, #second {
+        font-size: 1.5rem;
+        padding: 0.4rem;
+    }
+
+    button {
+        font-size: 0.8rem;
+        height: 1.5rem;
+    }
+
+    #res {
+        font-size: 1.5rem;
+    }
+
+    #comment {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    #mroot {
+        font-size: 1.2rem;
+        padding: 0.8rem;
+    }
+
+    #first, #second {
+        font-size: 1.2rem;
+        padding: 0.3rem;
+    }
+
+    button {
+        font-size: 0.7rem;
+        height: 1.2rem;
+    }
+
+    #res {
+        font-size: 1.2rem;
+    }
+
+    #comment {
+        font-size: 1rem;
+    }
+}
+
