@@ -26,7 +26,7 @@ video {
     text-align: center;
 }
 #mroot{
-    height: auto;
+    height: 70vh;
     width: auto;
     padding: 2rem;
     color:white;
@@ -35,6 +35,7 @@ video {
    box-shadow: 0px 0px 3rem rgb(0, 0, 0);  
    text-align: center;
    font-size: 2rem;
+   margin: 2rem;
    
 }
 h1{
@@ -46,6 +47,8 @@ h1{
     background-color: rgb(43, 42, 42);
     border-radius: 0.5rem;
     box-shadow: 0px 0px 1rem whitesmoke;
+    text-align: center;
+    padding: 0.5rem;
 
 }
 #first,#second{
@@ -72,6 +75,8 @@ button{
     border-radius: 0.5rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
+    padding: 0.5rem;
+    text-align: center;
 
    
     
@@ -106,11 +111,13 @@ button{
 @media (max-width: 1024px) {
     h1 {
         font-size: 2.5rem;
+        padding: 1rem;
     }
 
     #mroot {
         font-size: 1.8rem;
         padding: 1.5rem;
+        height: 50vh;
     }
 
     #first, #second {
@@ -119,10 +126,11 @@ button{
 
     button {
         font-size: 0.9rem;
-        height: 1.8rem;
+        height: 2rem;
     }
 
     #res {
+        padding: 0.5rem;
         font-size: 1.8rem;
     }
 
@@ -139,11 +147,13 @@ button{
 
     h1 {
         font-size: 2rem;
+        padding: 1rem;
     }
 
     #mroot {
         font-size: 1.5rem;
         padding: 1rem;
+        height: 50vh;
     }
 
     #first, #second {
@@ -153,26 +163,31 @@ button{
 
     button {
         font-size: 0.8rem;
-        height: 1.5rem;
+        height: 2rem;
     }
 
     #res {
-        font-size: 1.5rem;
+        padding: 0.5rem;
+        font-size: 1rem;
+    
     }
 
     #comment {
         font-size: 1.2rem;
+        padding: 1rem;
     }
 }
 
 @media (max-width: 480px) {
     h1 {
         font-size: 1.8rem;
+        padding: 0.5rem;
     }
 
     #mroot {
         font-size: 1.2rem;
         padding: 0.8rem;
+        height: 50vh;
     }
 
     #first, #second {
@@ -182,7 +197,7 @@ button{
 
     button {
         font-size: 0.7rem;
-        height: 1.2rem;
+        height: 2rem;
     }
 
     #res {
@@ -190,7 +205,7 @@ button{
     }
 
     #comment {
+        padding: 0.5rem;
         font-size: 1rem;
     }
 }
-
