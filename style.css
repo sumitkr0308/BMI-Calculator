@@ -118,6 +118,7 @@ button{
     #mroot {
         font-size: 1.8rem;
         padding: 1.5rem;
+         height: auto;
     }
 
     #first, #second {
@@ -153,6 +154,7 @@ button{
     #mroot {
         font-size: 1.5rem;
         padding: 1rem;
+         height: auto;
       
     }
 
@@ -186,6 +188,7 @@ button{
     #mroot {
         font-size: 1.2rem;
         padding: 0.8rem;
+         height: auto;
     }
 
     #first, #second {
