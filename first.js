@@ -24,10 +24,10 @@ button.addEventListener('click',()=>{
     if(ans<18){
         com.textContent="Underweight!"
     }
-    if(ans>25 && ans<29.9){
+    if(ans=>18.5 && ans<=24.9){
         com.textContent="Normal Weight!"
     }
-    if(ans>18.5 && ans<24.9){
+    if(ans>=25 && ans<=29.9){
         com.textContent="Overweight!"
     }
     if(ans>=30){
