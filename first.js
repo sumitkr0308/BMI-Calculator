@@ -19,4 +19,19 @@ button.addEventListener('click',()=>{
     const re= document.getElementById('res');
     re.textContent="BMI=  "+ans;
 
+    // comment
+    const com=document.getElementById('comment');
+    if(ans<18){
+        com.textContent="Underweight!"
+    }
+    if(ans>25 && ans<29.9){
+        com.textContent="Normal Weight!"
+    }
+    if(ans>18.5 && ans<24.9){
+        com.textContent="Overweight!"
+    }
+    if(ans>=30){
+        com.textContent="Obesity"
+    }
+
 })
