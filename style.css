@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('./2.webp'); /* Replace with the image file path */
+    background-size: cover; /* Makes the image cover the entire body */
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Makes the background fixed during scrolling */
+}
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the entire screen */
+    z-index: -1; /* Places the video behind content */
+  }
+
+
+
+.root{
+    height: 100vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+#mroot{
+    height: auto;
+    width: auto;
+    padding: 2rem;
+    color:white;
+    background-color: rgb(19, 19, 19);
+    border-radius: 1rem;
+   box-shadow: 0px 0px 3rem rgb(0, 0, 0);  
+   text-align: center;
+   font-size: 2rem;
+   
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: rgb(194, 193, 193);
+    font-size: 3rem;
+    text-shadow: 0px 0px 10px rgb(98, 58, 58);
+    background-color: rgb(43, 42, 42);
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 1rem whitesmoke;
+
+}
+#first,#second{
+    font-size: 2rem;
+    width: auto;
+    background-color: rgb(250, 250, 250);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    box-shadow: 0px 0px 5px rgb(226, 223, 223);
+    border-color: rgb(201, 201, 201);
+    margin-bottom: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+button{
+    font-size: 1rem;
+    background-color: rgb(160, 156, 156);
+    color: rgb(0, 0, 0);
+    height: 2rem;
+    width: auto;
+    border-color:  rgb(160, 156, 156);
+    box-shadow: 0px 0px 1rem rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+   
+    
+}
+#res{
+    margin-top: 2rem;
+    background-color: white;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    border-color: white;
+    box-shadow: 0px 0px 1rem rgb(255, 255, 255);
+    color: black;
+
+}
