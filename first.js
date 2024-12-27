@@ -75,3 +75,8 @@ document.addEventListener('keydown',(event)=>{
     }
 
 })
+const reset= document.getElementById('reset');
+reset.addEventListener('click',(event)=>{
+
+    location.reload();
+})
