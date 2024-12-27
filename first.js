@@ -16,7 +16,7 @@ button.addEventListener('click',()=>{
         return;
 
     // Output
-    const ans= weight/(height*height);
+    const ans= (weight*100*100)/(height*height);
     const re= document.getElementById('res');
     re.textContent="BMI=  "+ans;
 
@@ -53,7 +53,7 @@ document.addEventListener('keydown',(event)=>{
         return;
 
     // Output
-    const ans= weight/(height*height);
+   const ans= (weight*100*100)/(height*height);
     const re= document.getElementById('res');
     re.textContent="BMI=  "+ans;
 
